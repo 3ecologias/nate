@@ -1412,6 +1412,7 @@ support for no js
 }
 .grey-light-bg{
 	background-color:#C4D600;
+  background: url(../images/bg-nate.png) #C4D600 repeat 50% 50%;
 }
 .grey-dark-bg, .header.no-transparent .header-wrapper.grey-dark-bg{
 	background-color:#303236;
