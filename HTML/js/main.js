@@ -433,7 +433,7 @@ function initMagnPopup() {
 		});
 
 	//VIDEO GMAPS POPUP
-    $('#youtube').magnificPopup({
+    $('#youtube, #animation').magnificPopup({
       type: 'iframe',
          iframe: {
              markup: '<div class="mfp-iframe-scaler">'+
