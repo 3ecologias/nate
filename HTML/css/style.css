@@ -1086,6 +1086,10 @@ support for no js
 	margin-top:10px;
 }
 
+.fes1-box p {
+  font-size: 1.3em;
+}
+
 /* #FEATURES 2-3 #NEW
 =====================================================*/
 
@@ -1330,8 +1334,11 @@ support for no js
 =====================================================*/
 .fes7-box {
   position: relative;
-  padding-left: 47px;
-  padding-bottom: 10px;
+  padding-left: 5em;
+  padding-bottom: 2em;
+}
+.fes7-box-invert h3 {
+  color: #00524c!important;
 }
 .fes7-box-icon {
   position: absolute;
@@ -1339,14 +1346,23 @@ support for no js
   left: 0;
   color: #4b4e53;
   font-size: 30px;
+  width: 2em;
 }
 .fes7-box h3 {
-  color: #4b4e53;
+  color: #FFF;
   font-family: 'filson-soft', Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1.7em;
   margin-bottom: 5px;
   margin-top: 5px;
+}
+.fes7-text-cont p {
+  color: #00524c;
+  font-size: 1.4em;
+}
+.fes7-text-cont h1 {
+  color: #FFF;
+  font-weight: bold;
 }
 .fes7-text-cont h1 {
   margin-top: 0px;
@@ -2030,7 +2046,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   display:block;
   padding-top:55px;
   padding-bottom:52px;
-  background:#4b4e53;
+  background:#00524c;
   font-family: 'filson-soft',Arial,Helvetica,sans-serif;
   color:#fff;
   font-size:18px;
@@ -3174,14 +3190,14 @@ select.input-border {
 /* #FOOTER 2 BLACK #NEW
 =====================================================*/
 .footer2-black {
-  background: #303236;
-  color:rgba(255,255,255, .7);
+  background: #C4D600;
+  color: #00524C;
 }
 .footer2-black .widget h4 {
   color:#fff;
 }
 .footer2-black .a-text, .footer2-black .a-text-cont a {
-  color: rgba(255,255,255, .7);
+  color: #00524C;
 }
 .footer2-black .a-text:hover, .footer2-black .a-text-cont a:hover {
   color: #fff;
