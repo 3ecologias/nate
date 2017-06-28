@@ -1075,19 +1075,19 @@ support for no js
 	left: 0;
 	color:#4b4e53;
 	font-size: 35px;
-  width: 2em;
+  width: 1.6em;
 }
 .fes1-box h3 {
 	color:#4b4e53;
   font-family: 'filson-soft', Arial, Helvetica, sans-serif;
 	font-weight: bold;
-	font-size:18px;
+	font-size:1.3em;
 	margin-bottom:10px;
-	margin-top:10px;
+	margin-top:8px;
 }
 
 .fes1-box p {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 /* #FEATURES 2-3 #NEW
@@ -1334,7 +1334,7 @@ support for no js
 =====================================================*/
 .fes7-box {
   position: relative;
-  padding-left: 5em;
+  /* padding-left: 5em; */
   padding-bottom: 2em;
 }
 .fes7-box-invert h3 {
@@ -1352,13 +1352,13 @@ support for no js
   color: #FFF;
   font-family: 'filson-soft', Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 1.7em;
+  font-size: 1.5em;
   margin-bottom: 5px;
   margin-top: 5px;
 }
 .fes7-text-cont p {
   color: #00524c;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 .fes7-text-cont h1 {
   color: #FFF;
@@ -1428,8 +1428,12 @@ support for no js
 	background-color:#fff;
 }
 .grey-light-bg{
-	background-color:#C4D600;
-  background: url(../images/bg-nate.png) #C4D600 repeat 50% 50%;
+	/*background-color:#C4D600;
+  background: url(../images/bg-nate.png) #C4D600 repeat 50% 50%;*/
+  background: #FDFC47;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .grey-dark-bg, .header.no-transparent .header-wrapper.grey-dark-bg{
 	background-color:#303236;
@@ -3902,7 +3906,11 @@ header.affix .logo .logo-img {
 .nl-cont {
   padding-top:80px;
   padding-bottom:45px;
-  background:#eee;
+  /*background:#eee;*/
+  background: #FDFC47;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 #mc-embedded-subscribe {
   font-family: 'filson-soft',Arial,Helvetica,sans-serif;
