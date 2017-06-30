@@ -1433,10 +1433,9 @@ support for no js
 .grey-light-bg{
 	/*background-color:#C4D600;
   background: url(../images/bg-nate.png) #C4D600 repeat 50% 50%;*/
-  background: #FDFC47;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #C4D600;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00524c, #C4D600);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00524c, #C4D600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .grey-dark-bg, .header.no-transparent .header-wrapper.grey-dark-bg{
 	background-color:#303236;
@@ -3136,7 +3135,7 @@ select.input-border {
   color:#101010;
 }
 .footer-2-soc-a a {
-  font-size:16px;
+  font-size:2em;
   padding:9px;
 }
 .logo-footer{
@@ -3211,10 +3210,10 @@ select.input-border {
 }
 .footer2-black .footer-2-copy-cont {
   padding-top: 30px;
-  border-top: 1px solid rgba(255,255,255, .1);
+  border-top: 1px solid rgba(255,255,255, .3);
 }
 .footer2-black .footer-2-soc-a a {
-  color: rgba(255,255,255, .3);
+  color: rgba(255,255,255, .5);
 }
 .footer2-black .footer-2-soc-a a:hover, .footer2-black .footer-2-copy:hover {
   color: #fff;
@@ -3909,11 +3908,7 @@ header.affix .logo .logo-img {
 .nl-cont {
   padding-top:80px;
   padding-bottom:45px;
-  /*background:#eee;*/
-  background: #FDFC47;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #C4D600;
 }
 #mc-embedded-subscribe {
   font-family: 'filson-soft',Arial,Helvetica,sans-serif;
@@ -3933,7 +3928,7 @@ background: linear-gradient(to right, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, F
   font-size:21px;
   font-family: 'filson-soft',Arial,Helvetica,sans-serif;
   font-weight: lighter;
-  border-color:#4b4e53;
+  border-color:#fff;
 }
 #notification_container {
 	position:absolute;
