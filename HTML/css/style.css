@@ -984,7 +984,7 @@ support for no js
 	width: 40px;
 	height: 40px;
 	position:absolute;
-	bottom: 0;
+	bottom: 10%;
 	left: 50%;
 	margin-left: -20px;
 	text-align: center;
@@ -996,8 +996,8 @@ support for no js
   animation: scroll-down-anim ease-in-out 1s infinite;
 }
 .scroll-down {
-  color: #4b4e53;
-	font-size: 32px;
+  color: #fff;
+	font-size: 5em;
 }
 
 @-webkit-keyframes scroll-down-anim {
