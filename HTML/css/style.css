@@ -2065,6 +2065,27 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   background:#101010;
   color:#fff;
 }
+
+.port-view-more-cont-green {
+  text-align:center;
+}
+.port-view-more-green {
+  display:block;
+  padding-top:55px;
+  padding-bottom:52px;
+  background:#00524c;
+  font-family: 'filson-soft',Arial,Helvetica,sans-serif;
+  color:#fff;
+  font-size:18px;
+  line-height:18px;
+  font-weight:normal;
+  letter-spacing:4px;
+  transition: all .3s ease 0s;
+}
+.port-view-more-green:hover {
+  background:#C4D600;
+  color:#fff;
+}
 .port-view-more-inv{
   background:#dedede;
   display:block;
