@@ -1344,7 +1344,7 @@ support for no js
   color: #00524c!important;
 }
 .fes7-box-icon {
-  position: absolute;
+  position: relative;
   top: 2px;
   left: 0;
   color: #4b4e53;
@@ -1360,7 +1360,7 @@ support for no js
   margin-top: 5px;
 }
 .fes7-text-cont p {
-  color: #00524c;
+  color: #FFF;
   font-size: 1.2em;
 }
 .fes7-text-cont h1 {
