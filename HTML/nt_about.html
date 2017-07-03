@@ -10,22 +10,66 @@
 -->
 
 <html>
- 	<head>
-		<title>NATÉ!</title>
-		<meta charset=utf-8 >
-		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-		<meta name="robots" content="index, follow" >
-		<meta name="keywords" content="HTML5 Template" >
-		<meta name="description" content="Haswell - Responsive HTML5 Template" >
-		<meta name="author" content="Vladimir Azarushkin">
+  <head>
+    <title>NATÉ!</title>
+    <meta charset=utf-8 >
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="robots" content="index, follow" >
+    <meta name="keywords" content="Naté!, naté, nate, Natureza, Tecnologia, cosméticos naturais" >
+    <meta name="description" content="Naté! A harmonia entre cuidado, natureza e tecnologia" >
+    <meta name="author" content="3Ecologias">
 
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-		<!-- FAVICONS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- FAVICONS -->
     <link rel="shortcut icon" href="images/favicon/favicon.png">
     <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+    
+    <!-- CSS -->
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+
+    <!-- TYPEKIT -->
+    <script src="https://use.typekit.net/qvk3pey.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <!-- GOOGLE FONT -->    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700%7COpen+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  
+    <!-- ICONS ELEGANT FONT & FONT AWESOME & LINEA ICONS -->    
+    <link rel="stylesheet" href="css/icons-fonts.css" > 
+  
+    <!-- TEXT ROTATOR -->   
+    <link rel="stylesheet" href="css/text-rotator.css" >
+
+    <!-- CSS THEME -->    
+    <link rel="stylesheet" href="css/style.css" >
+
+    <!-- ANIMATE -->  
+    <link rel='stylesheet' href="css/animate.min.css">
+    
+    <!-- IE Warning CSS -->
+    <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie-warning.css" ><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie8-fix.css" ><![endif]-->
+    
+    <!-- Magnific popup  in style.css Owl Carousel Assets in style.css -->    
+  
+    <!-- CSS end -->
+
+    <!-- JS begin some js files in bottom of file-->
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- Modernizr -->
+    <!-- <script src="js/modernizr.js"></script> -->
 
 <!-- CSS -->
 
@@ -109,45 +153,42 @@
 				</div>
 				<![endif]-->
 
-				<!-- HEADER 1 NO-TRANSPARENT -->
-        <header id="nav" class="header header-1  mobile-no-transparent">
-
+      <div class="header-transporent-bg-black">       
+        <!-- HEADER 1 BLACK -->
+        <header id="nav" class="header header-1 black-header">
           <div class="header-wrapper">
-            <div class="container-m-30 clearfix">
-              <div class="logo-row">
-
-                <!-- LOGO -->
-                <div class="logo-container-2">
-                  <div class="logo-2">
-                    <a href="nt_index.html" class="clearfix">
-                      <img src="images/logo-dark-green.svg" class="logo-img" alt="Logo">
-                    </a>
-                  </div>
-                </div>
-                <!-- BUTTON -->
-                <div class="menu-btn-respons-container">
-                  <button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target="#main-menu .navbar-collapse">
-                    <span aria-hidden="true" class="icon_menu hamb-mob-icon"></span>
-                  </button>
+          <div class="container-m-30 clearfix">
+            <div class="logo-row">
+            <!-- LOGO --> 
+            <div class="logo-container-2">
+                <div class="logo-2">
+                  <a href="index.html" class="clearfix">
+                    <img src="images/logo-dark-green.svg" class="logo-img" alt="Logo">
+                  </a>
                 </div>
               </div>
+            <!-- BUTTON --> 
+            <div class="menu-btn-respons-container">
+              <button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target="#main-menu .navbar-collapse">
+                <span aria-hidden="true" class="icon_menu hamb-mob-icon"></span>
+              </button>
             </div>
+           </div>
+          </div>
+          <!-- MAIN MENU CONTAINER -->
+          <div class="main-menu-container">
+          
+            <div class="container-m-30 clearfix"> 
+            
+              <!-- MAIN MENU -->
+              <div id="main-menu">
+                <div class="navbar navbar-default" role="navigation">
 
-
-            <!-- MAIN MENU CONTAINER -->
-            <div class="main-menu-container">
-
-              <div class="container-m-30 clearfix">
-
-                <!-- MAIN MENU -->
-                <div id="main-menu">
-                  <div class="navbar navbar-default" role="navigation">
-
-                    <!-- MAIN MENU LIST -->
-                    <nav class="collapse collapsing navbar-collapse right-1024">
-                      <ul class="nav navbar-nav">
-
-                        <!-- MENU ITEM -->
+                  <!-- MAIN MENU LIST -->
+                  <nav class="collapse collapsing navbar-collapse right-1024">
+                    <ul id="nav-onepage" class="nav navbar-nav">
+                      
+                      <!-- MENU ITEM -->
                         <li class="parent">
                           <a href="#"><div class="main-menu-title">HOME</div></a>
                         </li>
@@ -167,40 +208,56 @@
                           <a href="#blog"><div class="main-menu-title">NOTÍCIAS</div></a>
                         </li>
 
-                      </ul>
-
-                    </nav>
-                  </div>
-                  <!-- END container-m-30 -->
+                    </ul>
+              
+                  </nav>
 
                 </div>
-                <!-- END main-menu-container -->
-
-
               </div>
+              <!-- END main-menu -->
+            
             </div>
-            <!-- END header-wrapper -->
+            <!-- END container-m-30 -->
+            
+          </div>
+          <!-- END main-menu-container -->
+          
+          </div>
+          <!-- END header-wrapper -->
+          
+        </header>
 
-          </header>
+                <!-- STATIC MEDIA IMAGE -->
+        <div id="index-link" class="sm-img-bg-fullscr parallax-section relative" style="background-image: url(images/bg-about.jpg)" data-stellar-background-ratio="0.5">
+          <!-- IMG OVERLAY for mobile -->
+          <div class="slider-text-bg"></div>
+          
+          <div class="container sm-content-cont-fullscr js-height-fullscr ">
+            <div class=" sm-cont-middle">
 
-        <!-- PAGE TITLE SMALL -->
-        <div class="page-title-cont page-title-small grey-light-bg">
-          <div class="relative container align-left">
-            <div class="row">
+              <!-- OPACITY container -->
+              <div class="opacity-scroll2 relative">
 
-              <div class="col-md-8">
-                <h1 class="page-title">A Harmonia entre <br> natureza e tecnologia</h1>
-              </div>
-
-              <div class="col-md-4">
-                <div class="breadcrumbs">
-                  <a href="nt_index.html">Home</a><span class="slash-divider">/</span><span class="bread-current">Sobre a NATÉ!</span>
-                </div>
+                <!-- LAYER NR. 1 -->
+                <h1 class="cd-headline zoom light-72-wide font-white sm-mt-0  sm-mb-20">
+                  <span>JÁ SOOU O</span> <br>
+                  <span class="cd-words-wrapper waiting">
+                    <b class="is-visible">ALARME ECOLÓGICO</b>
+                  </span>
+                </h1> 
               </div>
 
             </div>
           </div>
-        </div>
+          <!-- SCROLL ICON -->
+          <div class="local-scroll-cont font-white">
+            <a href="#about" class="scroll-down smooth-scroll">
+              <div class="icon icon-arrows-down"></div>
+            </a>  
+          </div>
+        </div>  
+        
+      </div>
 
         <!-- COTENT CONTAINER -->
         <div class="container p-140-cont">
@@ -369,31 +426,76 @@
 
 <!-- JS begin -->
 
-		<!-- jQuery  -->
-		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <!-- jQuery  -->
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>   
 
-		<!-- MAGNIFIC POPUP -->
-		<script src='js/jquery.magnific-popup.min.js'></script>
-
+    <!-- MAGNIFIC POPUP -->
+    <script src='js/jquery.magnific-popup.min.js'></script>
+    
     <!-- PORTFOLIO SCRIPTS -->
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
     <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-
+    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+    
     <!-- COUNTER -->
     <script type="text/javascript" src="js/jquery.countTo.js"></script>
-
-    <!-- APPEAR -->
+    
+    <!-- APPEAR -->    
     <script type="text/javascript" src="js/jquery.appear.js"></script>
-
-    <!-- OWL CAROUSEL -->
+    
+    <!-- OWL CAROUSEL -->    
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
 
-    <!-- MAIN SCRIPT -->
-		<script src="js/main.js"></script>
+    <!-- PARALLAX -->    
+    <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
 
-<!-- JS end -->
+    <!-- TEXT ROTATOR -->    
+    <script type="text/javascript" src="js/text-rotator.js"></script>
+    
+    <!-- ONE PAGE NAV -->
+    <script src="js/jquery.nav.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+      //ONE PAGE NAV  ---------------------------------------------------------------------------
+      var top_offset = $('header').height() - 1;  // get height of fixed navbar
+
+      $('#nav-onepage').onePageNav({
+        currentClass: 'current',
+        changeHash: false,
+        scrollSpeed: 700,
+        scrollOffset: top_offset,
+        scrollThreshold: 0.5,
+        filter: '',
+        easing: 'swing',
+        begin: function() {
+          //I get fired when the animation is starting
+        },
+        end: function() {
+          //I get fired when the animation is ending
+        },
+        scrollChange: function($currentListItem) {
+          //I get fired when you enter a section and I pass the list item of the section
+        }
+      });
+           
+      });//END document.ready 
+    </script>
+    
+    <!-- GOOLE MAP --> 
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=INSERT-YOUR-API-KEY-HERE"></script>
+    <script type="text/javascript" src="js/gmap3.min.js"></script>
+    
+    <!-- FORMS VALIDATION -->
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/contact-form-validation.min.js"></script> 
+    
+    <!-- MAIN SCRIPT -->
+    <script src="js/main.js"></script>
+    
+<!-- JS end --> 
 
 	</body>
 </html>
