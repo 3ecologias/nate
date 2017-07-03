@@ -2675,9 +2675,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
     height:45%;
     height:50%;
     width:100%;
-    background:rgba(255,255,255,.5);
-    background:rgba(103,103,103,1);
-    background:rgba(13,13,13,.75);
+    background:rgba(255,255,255,.2);
     position:absolute;
     top:50%;
     -webkit-transform: translateY(-50%);
