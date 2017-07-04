@@ -1,0 +1,530 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<!--
+
+	Theme Name: HASWELL
+	Description: HTML/CSS
+	Author: Abcgomel
+	Version: 1.0
+	Designed & Coded by Abcgomel
+
+-->
+
+<html>
+ 	<head>
+    <title>NATÉ!</title>
+    <meta charset=utf-8 >
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="robots" content="index, follow" >
+    <meta name="keywords" content="HTML5 Template" >
+    <meta name="description" content="Haswell - Responsive HTML5 Template" >
+    <meta name="author" content="Vladimir Azarushkin">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" href="{% static 'images/favicon/favicon.png' %}">
+    <link rel="apple-touch-icon" href="{% static 'images/favicon/apple-touch-icon.png' %}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{% static 'images/favicon/apple-touch-icon-72x72.png' %}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{% static 'images/favicon/apple-touch-icon-114x114.png' %}">
+
+    <!-- CSS -->
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+    <!-- TYPEKIT -->
+    <script src="https://use.typekit.net/qvk3pey.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <!-- GOOGLE FONT -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700%7COpen+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- ICONS ELEGANT FONT & FONT AWESOME & LINEA ICONS -->
+    <link rel="stylesheet" href="{% static 'css/icons-fonts.css' %}" >
+
+    <!-- TEXT ROTATOR -->
+    <link rel="stylesheet" href="{% static 'css/text-rotator.css' %}" >
+
+    <!-- CSS THEME -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" >
+
+    <!-- ANIMATE -->
+    <link rel='stylesheet' href="{% static 'css/animate.min.css' %}">
+
+    <!-- IE Warning CSS -->
+		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie-warning.css" ><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie8-fix.css" ><![endif]-->
+
+    <!-- Magnific popup  in style.css	Owl Carousel Assets in style.css -->
+
+<!-- CSS end -->
+
+<!-- JS begin some js files in bottom of file-->
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    <!-- Modernizr -->
+    <!-- <script src="js/modernizr.js"></script> -->
+
+	</head>
+	<body>
+
+		<!-- LOADER -->
+		<div id="loader-overflow">
+      <div id="loader3">Please enable JS</div>
+    </div>
+
+		<div id="wrap" class="boxed ">
+			<div class="grey-bg"> <!-- Grey BG  -->
+
+				<!--[if lte IE 8]>
+				<div id="ie-container">
+					<div id="ie-cont-close">
+						<a href='#' onclick='javascript&#058;this.parentNode.parentNode.style.display="none"; return false;'><img src='images/ie-warn/ie-warning-close.jpg' style='border: none;' alt='Close'></a>
+					</div>
+					<div id="ie-cont-content" >
+						<div id="ie-cont-warning">
+							<img src='images/ie-warn/ie-warning.jpg' alt='Warning!'>
+						</div>
+						<div id="ie-cont-text" >
+							<div id="ie-text-bold">
+								You are using an outdated browser
+							</div>
+							<div id="ie-text">
+								For a better experience using this site, please upgrade to a modern web browser.
+							</div>
+						</div>
+						<div id="ie-cont-brows" >
+							<a href='http://www.firefox.com' target='_blank'><img src='images/ie-warn/ie-warning-firefox.jpg' alt='Download Firefox'></a>
+							<a href='http://www.opera.com/download/' target='_blank'><img src='images/ie-warn/ie-warning-opera.jpg' alt='Download Opera'></a>
+							<a href='http://www.apple.com/safari/download/' target='_blank'><img src='images/ie-warn/ie-warning-safari.jpg' alt='Download Safari'></a>
+							<a href='http://www.google.com/chrome' target='_blank'><img src='images/ie-warn/ie-warning-chrome.jpg' alt='Download Google Chrome'></a>
+						</div>
+					</div>
+				</div>
+				<![endif]-->
+
+      <div class="header-transporent-bg-black">
+
+				<!-- HEADER -->
+                <header id="nav" class="header header-1 black-header">
+          <div class="header-wrapper">
+          <div class="container-m-30 clearfix">
+            <div class="logo-row">
+            <!-- LOGO -->
+            <div class="logo-container-2">
+                <div class="logo-2">
+                  <a href="nt_index_images.html" class="clearfix">
+                    <img src="{% static 'images/logo-light-green.svg' %}" class="logo-img" alt="Logo">
+                  </a>
+                </div>
+              </div>
+            <!-- BUTTON -->
+            <div class="menu-btn-respons-container">
+              <button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target="#main-menu .navbar-collapse">
+                <span aria-hidden="true" class="icon_menu hamb-mob-icon"></span>
+              </button>
+            </div>
+           </div>
+          </div>
+          <!-- MAIN MENU CONTAINER -->
+          <div class="main-menu-container">
+
+            <div class="container-m-30 clearfix">
+
+              <!-- MAIN MENU -->
+              <div id="main-menu">
+                <div class="navbar navbar-default" role="navigation">
+
+                  <!-- MAIN MENU LIST -->
+                  <nav class="collapse collapsing navbar-collapse right-1024">
+                    <ul id="nav-onepage" class="nav navbar-nav">
+
+                      <!-- MENU ITEM -->
+                        <li class="parent current ">
+                          <a href="#home"><div class="main-menu-title">HOME</div></a>
+                        </li>
+
+                        <!-- MENU ITEM -->
+                        <li class="parent">
+                          <a href="#andiroba"><div class="main-menu-title">SOBRE O MULTIFUNCIONAL</div></a>
+                        </li>
+
+                        <!-- MEGA MENU ITEM -->
+                        <li class="parent megamenu">
+                          <a href="#products"><div class="main-menu-title">COMPRE</div></a>
+                        </li>
+
+                    </ul>
+
+                  </nav>
+
+                </div>
+              </div>
+              <!-- END main-menu -->
+
+            </div>
+            <!-- END container-m-30 -->
+
+          </div>
+          <!-- END main-menu-container -->
+
+          </div>
+          <!-- END header-wrapper -->
+
+        </header>
+
+        <!-- STATIC MEDIA IMAGE -->
+        <div id="home" class="sm-video-bg sm-img-bg-fullscr parallax-section" style="background-image: url({% static 'images/gitchhand.jpg' %})" data-stellar-background-ratio="0.5">
+          <div class="container sm-content-cont text-center js-height-fullscr">
+            <!-- VIDEO BG -->
+            <!-- If you want to change video - replace video files in folder "video" -->
+            <div class="sm-video-wrapper">
+              <div class="tp-dottedoverlay twoxtwo"></div>
+              <div class="sm-video bg-dark-alfa-30"></div>
+            </div>
+            <div class="sm-cont-middle">
+
+							<!-- OPACITY container -->
+							<div class="opacity-scroll2">
+
+						  	<!-- LAYER NR. 1 -->
+						  	<div class="light-72-wide sm-mb-15 sm-mt-20 relative font-white" >
+						      REPELENTE <span class="bold">MULTIFUNCIONAL</span>
+						  	</div>
+
+							</div>
+
+            </div>
+          </div>
+          <!-- SCROLL ICON -->
+					<div class="local-scroll-cont">
+						<a href="#about" class="scroll-down smooth-scroll">
+              <div class="icon icon-arrows-down"></div>
+            </a>
+					</div>
+        </div>
+
+      </div>
+
+      <!-- FEATURES 1 -->
+					<div id="about" class="page-section">
+						<div class="container fes1-cont">
+							<div class="row">
+
+								<div class="col-md-4 fes1-img-cont wow fadeInUp mb-20">
+									<img src="{% static 'images/produto.png' %}" alt="img" >
+								</div>
+
+								<div class="col-md-8">
+
+					                <div class="row">
+					                  <div class="col-md-12">
+					                    <div class="fes1-main-title-cont wow fadeInDown">
+					                      <div class="title-fs-60">Proteção e hidratação <br>
+					                      <span class="bold">para sua pele</span></div>
+					                      <div class="line-3-100"></div>
+					                    </div>
+							                     <blockquote class="quote mb-0 pl-50-min-1169">
+						                  <p> Naté utiliza alta tecnologia para recuperar a sabedoria das florestas, e traz um poderoso multifuncional que atua ao mesmo tempo como repelente de insetos e hidratante para sua pele.</p>
+						                  <p>
+						                  É tempo de viver bem, e NATÉ! é a biodiversidade à serviço da saúde.</p>
+
+						                 </blockquote>
+					               </div>
+								  </div>
+								  </div>
+								</div>
+							</div>
+
+          <!-- FEATURES 7 -->
+                	        <div class="page-section grey-light-bg clearfix">
+                	          <div class="fes7-img-cont col-md-5">
+                	            <div class="fes7-img" style="background-image: url({% static 'images/sementes-14.jpg' %})" ></div>
+                	          </div>
+
+                	          <div id="andiroba" class="container">
+                	            <div class="row">
+                	              <div class="col-md-6 col-md-offset-6 fes7-text-cont p-80-cont">
+                	                <h1><span class="bold">Multifuncional como a Andiroba</span></h1>
+                	                <p class="mb-60">
+                	                  Na Amazônia, a andiroba é conhecida por ser uma semente com propriedades fitoterápicas. A NATÉ! uniou o poder da andiroba com os mais modernos recursos tecnológicos para trazer um multifuncional que, ao mesmo tempo que hidrata sua pele, repele insetos nocivos à saude.
+                	                </p>
+
+                	                <div class="row">
+
+                	                  <div class="col-md-6 col-sm-6">
+                	                    <div class="fes7-box wow fadeIn" >
+                	                      <div class="fes7-box-icon">
+                	                        <img class="img-responsive" src="{% static 'images/icon-repelente.svg' %}">
+                	                      </div>
+                	                      <h3>Repelente</h3>
+                	                      <p>NATÉ! protege das picadas de insetos, transmissoras de diversas doenças</p>
+                	                    </div>
+                	                  </div>
+
+                	                  <div class="col-md-6 col-sm-6">
+                	                    <div class="fes7-box wow fadeIn" data-wow-delay="200ms">
+                	                      <div class="fes7-box-icon">
+                	                        <img class="img-responsive" src="{% static 'images/icon-hidratante.svg' %}">
+                	                      </div>
+                	                      <h3>Hidratante</h3>
+                	                      <p>NATÉ! possui em sua fórmula a Andiroba que hidrata, nutre e fortalece a pele</p>
+                	                    </div>
+                	                  </div>
+
+                	                </div>
+
+                	                <div class="row">
+
+                	                  <div class="col-md-6 col-sm-6">
+                	                    <div class="fes7-box wow fadeIn" data-wow-delay="400ms">
+                	                      <div class="fes7-box-icon">
+                	                        <img class="img-responsive" src="{% static 'images/icon-suave.svg' %}">
+                	                      </div>
+                	                      <h3>Suavizante</h3>
+                	                      <p>A Andiroba também amacia a pele, e forma uma película protetora quando aplicado sobre o corpo</p>
+                	                    </div>
+                	                  </div>
+
+                	                  <div class="col-md-6 col-sm-6">
+                	                    <div class="fes7-box wow fadeIn"  data-wow-delay="600ms">
+                	                      <div class="fes7-box-icon">
+                	                        <img class="img-responsive" src="{% static 'images/icon-renew.svg' %}">
+                	                      </div>
+                	                      <h3>Responsável</h3>
+                	                      <p>As sementes utilizadas pela NATÉ! são coletadas por comunidades locais focadas no desenvolvimento sustentável da floresta</p>
+                	                    </div>
+                	                  </div>
+
+                	                </div>
+
+                	              </div>
+                	            </div><!--end of row-->
+                	          </div>
+                	        </div>
+          <!-- CALL TO ACTION  -->
+	        <div id="products" class="port-view-more-cont-green">
+	          <span class="port-view-more-green " >ADQUIRA O REPELENTE MULTIFUNCIONAL NATÉ!</span>
+	        </div>
+          <!-- CLIENTS 1 & TESTIMONIALS 1 -->
+          <div class="page-section p-110-cont pt-80 pb-50">
+            <div class="container">
+              <div class="row">
+                <!-- CLIENTS 1 -->
+                <div class="col-md-12">
+                  <div class="row client-row border-bot">
+
+                      <div class="col-xs-6 col-sm-3 text-center">
+                        <img alt="client" src="{% static 'images/Logo-Onofre.png' %}">
+                      </div>
+
+                      <div class="col-xs-6 col-sm-3 text-center">
+                        <img alt="client" src="{% static 'images/logo-netfarma.png' %}">
+                      </div>
+
+                      <div class="col-xs-6 col-sm-3 text-center">
+                        <img alt="client" src="{% static 'images/Logo_Drogaria_SP.jpg' %}">
+                      </div>
+
+                      <div class="col-xs-6 col-sm-3 text-center">
+                        <img alt="client" src="{% static 'images/drogasil.jpg' %}">
+                      </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+                <!-- TESTIMONIALS 1 -->
+    <!-- NEWS LETTER -->
+    <div class="page-section nl-cont">
+      <div class="container">
+        <div class="relative" >
+          <div id="mc_embed_signup" class="nl-form-container clearfix">
+            <form action="http://abcgomel.us9.list-manage.com/subscribe/post-json?u=ba37086d08bdc9f56f3592af0&amp;id=e38247f7cc&amp;c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletterform validate" target="_blank" novalidate>   <!-- EDIT THIS ACTION URL (add "post-json?u" instead of "post?u" and appended "&amp;c=?" to the end of this URL) -->
+              <input type="email" value="" name="EMAIL" class="email nl-email-input" id="mce-EMAIL" placeholder="Receba nossa newsletter!" required>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;"><input type="text" name="b_ba37086d08bdc9f56f3592af0_e38247f7cc" tabindex="-1" value=""></div>
+
+              <input type="submit" value="ASSINE" name="subscribe" id="mc-embedded-subscribe" class="button medium thin tp-button dark-green">
+            </form>
+            <div id="notification_container"  ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER 2 BLACK -->
+    <footer class="page-section pt-80 pb-50 footer2-black">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-3 col-sm-3 widget">
+            <div class="logo-footer-cont">
+              <a href="index.html">
+                <img src="{% static 'images/logo-white.svg' %}" class="logo-img" alt="Logo">
+              </a>
+            </div>
+            <div class="footer-2-text-cont">
+              <address>
+                ROD. BR 316 KM 08 S/Nº<br>
+                67030-000 | ANANINDEUA PA
+              </address>
+            </div>
+            <div class="footer-2-text-cont">
+              +55 91 3215-5200
+            </div>
+            <div class="footer-2-text-cont">
+              <a class="a-text" href="mailto:contato@natebeauty.com.br">contato@natebeauty.com.br</a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-3 widget">
+            <h4>NATÉ!</h4>
+            <ul class="links-list a-text-cont" >
+              <li><a href="nt_buy.html">ONDE COMPRAR</a></li>
+              <li><a href="nt_retail.html"></a>FALE CONOSCO</li>
+              <li><a href="nt_datasheet.html">INFORMAÇÕES LEGAIS</a></li>
+              <li><a href="nt_termofuse.html">POLÍTICA DE PRIVACIDADE</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 col-sm-3 widget">
+            <h4>NAVEGUE</h4>
+            <ul class="links-list bold a-text-cont">
+              <li><a href="#">INÍCIO</a></li>
+              <li><a href="nt_about.html">SOBRE</a></li>
+              <li><a href="nt_histories.html">PRODUTOS</a></li>
+              <li><a href="nt_blog.html">SABEDORIAS</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-3 widget">
+            <div class="footer-2-copy-cont clearfix">
+              <!-- Social Links -->
+              <div class="footer-2-soc-a right">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="#" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="#" title="E-mail" target="_blank"><i class="fa fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <!-- Copyright -->
+        <div class="left">
+          <p class="footer-2-copy" >&copy; NATÉ! do Brasil Indústria e Comércio de Produtos para Saúde Ltda. 2017. Todos os direitos reservados. </p><p>Este site é de propriedade da NATÉ! do Brasil Indústria e Comércio de Produtos para Saúde Ltda., única responsável por seu conteúdo, e destina-se a residentes no Brasil.</p>
+        </div>
+
+
+      </div>
+
+    </div>
+  </footer>
+
+				<!-- BACK TO TOP -->
+				<p id="back-top">
+          <a href="#top" title="Back to Top"><span class="icon icon-arrows-up"></span></a>
+        </p>
+
+			</div><!-- End BG -->
+		</div><!-- End wrap -->
+
+<!-- JS begin -->
+
+		<!-- jQuery  -->
+		<script type="text/javascript" src="{% static 'js/jquery-1.11.2.min.js' %}"></script>
+
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+		<!-- MAGNIFIC POPUP -->
+		<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+
+    <!-- PORTFOLIO SCRIPTS -->
+    <script type="text/javascript" src="{% static 'js/isotope.pkgd.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/imagesloaded.pkgd.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/masonry.pkgd.min.js' %}"></script>
+
+    <!-- COUNTER -->
+    <script type="text/javascript" src="{% static 'js/jquery.countTo.js' %}"></script>
+
+    <!-- APPEAR -->
+    <script type="text/javascript" src="{% static 'js/jquery.appear.js' %}"></script>
+
+    <!-- OWL CAROUSEL -->
+    <script type="text/javascript" src="{% static 'js/owl.carousel.min.js' %}"></script>
+
+    <!-- PARALLAX -->
+    <script type="text/javascript" src="{% static 'js/jquery.stellar.min.js' %}"></script>
+
+    <!-- ONE PAGE NAV -->
+    <script src="{% static 'js/jquery.nav.js' %}"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+      //ONE PAGE NAV	---------------------------------------------------------------------------
+      var top_offset = $('header').height() - 1;  // get height of fixed navbar
+
+      $('#nav-onepage').onePageNav({
+        currentClass: 'current',
+        changeHash: false,
+        scrollSpeed: 700,
+        scrollOffset: top_offset,
+        scrollThreshold: 0.5,
+        filter: '',
+        easing: 'swing',
+        begin: function() {
+          //I get fired when the animation is starting
+        },
+        end: function() {
+          //I get fired when the animation is ending
+        },
+        scrollChange: function($currentListItem) {
+          //I get fired when you enter a section and I pass the list item of the section
+        }
+      });
+
+      });//END document.ready
+    </script>
+
+    <!-- FORMS VALIDATION	-->
+		<script src="{% static 'js/jquery.validate.min.js' %}"></script>
+		<script src="{% static 'js/contact-form-validation.min.js' %}"></script>
+
+    <!-- MAIN SCRIPT -->
+    <script src="{% static 'js/main.js' %}"></script>
+
+    <!-- BACKGROUND VIDEO -->
+    <script type="text/javascript" src="{% static 'js/jquery.backgroundvideo.min.js' %}"></script>
+    <script>
+    $(document).ready(function(){
+      if (!($("html").hasClass("mobile"))){
+        var videobackground = new $.backgroundVideo($('.sm-video'), {
+          "align": "centerXY",
+          "width": 1920,
+          "height": 1080,
+          "path": "video/",
+          "filename": "bonsai_an",
+          "types": ["mp4", "webm"],
+          "autoplay": true,
+          "loop": true
+        });
+      }
+    });
+    </script>
+
+
+<!-- JS end -->
+
+	</body>
+</html>
