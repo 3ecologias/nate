@@ -118,7 +118,7 @@
           <!-- LOGO -->
           <div class="logo-container-2">
             <div class="logo-2">
-              <a href="index.html" class="clearfix">
+              <a href="nt_index_images.html" class="clearfix">
                 <img src="images/logo-dark-green.svg" class="logo-img" alt="Logo">
               </a>
             </div>
@@ -144,11 +144,11 @@
 
               <!-- MAIN MENU LIST -->
               <nav class="collapse collapsing navbar-collapse right-1024">
-                <ul class="nav navbar-nav">
+                <ul id="nav-onepage" class="nav navbar-nav">
 
                   <!-- MENU ITEM -->
                   <li class="parent  current">
-                    <a href="#"><div class="main-menu-title">HOME</div></a>
+                    <a href="#home"><div class="main-menu-title">HOME</div></a>
                   </li>
 
                   <!-- MENU ITEM -->
@@ -181,7 +181,7 @@
 
     </header>
     <!-- STATIC MEDIA IMAGE -->
-    <div class="sm-img-bg-fullscr parallax-section relative" style="background-image: url(images/glitchome.jpg)" data-stellar-background-ratio="0.5">
+    <div id="home" class="sm-img-bg-fullscr parallax-section relative" style="background-image: url(images/glitchome.jpg)" data-stellar-background-ratio="0.5">
       <!-- IMG OVERLAY for mobile -->
       <div class="slider-text-bg"></div>
 
@@ -207,8 +207,8 @@
             </div>
 
             <!-- LAYER NR. 3 -->
-            <div class="center-0-478">
-              <a class="button medium thin tp-button dark-green" href="#">SAIBA MAIS</a><a class="button medium thin tp-button dark-green ml-20" href="#">PRODUTOS</a>
+            <div id="nav-onepage" class="center-0-478">
+              <a class="button medium thin tp-button dark-green" href="nt_about.html">SAIBA MAIS</a><a class="button medium thin tp-button dark-green ml-20" href="nt_about_product.html">PRODUTOS</a>
             </div>
 
           </div>
@@ -225,10 +225,10 @@
 
 
     <!-- ABOUT -->
-    <div id="about" class="page-section p-110-cont">
+    <div class="page-section p-110-cont">
       <div class="container">
 
-        <div class="row">
+        <div id="about" class="row">
           <!-- TESTIMONIALS -->
           <div class="col-md-5 pb-40">
             <blockquote class="quote mb-0 pr-50-min-1169">
@@ -275,7 +275,7 @@
         <div class="fes7-img" style="background-image: url(images/gitchhand.jpg)" ></div>
       </div>
 
-      <div class="container">
+      <div id="diversidade" class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-6 fes7-text-cont p-80-cont">
             <h1><span class="font-light">Viver com diversidade e harmonia. Conheça nossos valores.</span></h1>
@@ -330,10 +330,10 @@
     <hr class="mt-0 mb-0">
 
     <!-- FEATURES 9 -->
-    <div id="products" class="page-section p-80-cont">
+    <div class="page-section p-80-cont">
 
       <div class="container">
-        <div class="row">
+        <div id="products" class="row">
 
           <div class="col-md-6">
             <div class="mt-10 mb-80">
@@ -401,7 +401,6 @@
               <center>
                 <div class="fes5-box wow fadeIn" data-wow-delay="800ms">
                   <a class="button medium thin tp-button dark-green" href="nt_about_product.html">SAIBA MAIS</a>
-                  <a class="button medium thin tp-button dark-green ml-20" href="nt_about_product.html">COMPRE AGORA</a>
                 </div>
               </center>
             </div>
@@ -412,8 +411,8 @@
     </div>
 
     <!-- NEWS -->
-    <div id="blog" class="page-section pt-110-b-30-cont">
-      <div class="container">
+    <div class="page-section pt-110-b-30-cont">
+      <div id="blog" class="container">
         <div class="mb-50">
           <h2 class="section-title pr-0">FIQUE POR <span class="bold">DENTRO</span><a href="blog-right-sidebar.html" class="section-more right">VEJA TODAS</a></h2>
         </div>
@@ -608,6 +607,35 @@
 
   <!-- MAIN SCRIPT -->
   <script src="js/main.js"></script>
+
+  <!-- ONE PAGE NAV -->
+  <script src="js/jquery.nav.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+    //ONE PAGE NAV	---------------------------------------------------------------------------
+    var top_offset = $('header').height() - 1;  // get height of fixed navbar
+
+    $('#nav-onepage').onePageNav({
+      currentClass: 'current',
+      changeHash: false,
+      scrollSpeed: 700,
+      scrollOffset: top_offset,
+      scrollThreshold: 0.5,
+      filter: '',
+      easing: 'swing',
+      begin: function() {
+        //I get fired when the animation is starting
+      },
+      end: function() {
+        //I get fired when the animation is ending
+      },
+      scrollChange: function($currentListItem) {
+        //I get fired when you enter a section and I pass the list item of the section
+      }
+    });
+
+    });//END document.ready
+  </script>
 
   <!-- JS end -->
 
