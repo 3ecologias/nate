@@ -1,0 +1,507 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<!--
+
+	Theme Name: HASWELL
+	Description: HTML/CSS
+	Author: Abcgomel
+	Version: 1.0
+	Designed & Coded by Abcgomel
+
+-->
+
+<html>
+ 	<head>
+    <title>NATÉ!</title>
+    <meta charset=utf-8 >
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="robots" content="index, follow" >
+    <meta name="keywords" content="HTML5 Template" >
+    <meta name="description" content="Haswell - Responsive HTML5 Template" >
+    <meta name="author" content="Vladimir Azarushkin">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" href="{% static 'images/favicon/favicon.png' %}">
+    <link rel="apple-touch-icon" href="{% static 'images/favicon/apple-touch-icon.png' %}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{% static 'images/favicon/apple-touch-icon-72x72.png' %}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{% static 'images/favicon/apple-touch-icon-114x114.png' %}">
+
+    <!-- CSS -->
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+    <!-- TYPEKIT -->
+    <script src="https://use.typekit.net/qvk3pey.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <!-- GOOGLE FONT -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700%7COpen+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- ICONS ELEGANT FONT & FONT AWESOME & LINEA ICONS -->
+    <link rel="stylesheet" href="{% static 'css/icons-fonts.css' %}" >
+
+    <!-- TEXT ROTATOR -->
+    <link rel="stylesheet" href="{% static 'css/text-rotator.css' %}" >
+
+    <!-- CSS THEME -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" >
+
+    <!-- ANIMATE -->
+    <link rel='stylesheet' href="{% static 'css/animate.min.css' %}">
+
+    <!-- IE Warning CSS -->
+		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie-warning.css" ><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie8-fix.css" ><![endif]-->
+
+    <!-- Magnific popup  in style.css	Owl Carousel Assets in style.css -->
+
+<!-- CSS end -->
+
+<!-- JS begin some js files in bottom of file-->
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    <!-- Modernizr -->
+    <!-- <script src="js/modernizr.js"></script> -->
+
+	</head>
+	<body>
+
+		<!-- LOADER -->
+		<div id="loader-overflow">
+      <div id="loader3">Please enable JS</div>
+    </div>
+
+		<div id="wrap" class="boxed ">
+			<div class="grey-bg"> <!-- Grey BG  -->
+
+				<!--[if lte IE 8]>
+				<div id="ie-container">
+					<div id="ie-cont-close">
+						<a href='#' onclick='javascript&#058;this.parentNode.parentNode.style.display="none"; return false;'><img src='images/ie-warn/ie-warning-close.jpg' style='border: none;' alt='Close'></a>
+					</div>
+					<div id="ie-cont-content" >
+						<div id="ie-cont-warning">
+							<img src='images/ie-warn/ie-warning.jpg' alt='Warning!'>
+						</div>
+						<div id="ie-cont-text" >
+							<div id="ie-text-bold">
+								You are using an outdated browser
+							</div>
+							<div id="ie-text">
+								For a better experience using this site, please upgrade to a modern web browser.
+							</div>
+						</div>
+						<div id="ie-cont-brows" >
+							<a href='http://www.firefox.com' target='_blank'><img src='images/ie-warn/ie-warning-firefox.jpg' alt='Download Firefox'></a>
+							<a href='http://www.opera.com/download/' target='_blank'><img src='images/ie-warn/ie-warning-opera.jpg' alt='Download Opera'></a>
+							<a href='http://www.apple.com/safari/download/' target='_blank'><img src='images/ie-warn/ie-warning-safari.jpg' alt='Download Safari'></a>
+							<a href='http://www.google.com/chrome' target='_blank'><img src='images/ie-warn/ie-warning-chrome.jpg' alt='Download Google Chrome'></a>
+						</div>
+					</div>
+				</div>
+				<![endif]-->
+
+      <div class="header-transporent-bg-black">
+
+				<!-- HEADER -->
+                <header id="nav" class="header header-1 black-header">
+          <div class="header-wrapper">
+          <div class="container-m-30 clearfix">
+            <div class="logo-row">
+            <!-- LOGO -->
+            <div class="logo-container-2">
+                <div class="logo-2">
+                  <a href="/" class="clearfix">
+                    <img src="{% static 'images/logo-white.svg' %}" class="logo-img" alt="Logo">
+                  </a>
+                </div>
+              </div>
+            <!-- BUTTON -->
+            <div class="menu-btn-respons-container">
+              <button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target="#main-menu .navbar-collapse">
+                <span aria-hidden="true" class="icon_menu hamb-mob-icon"></span>
+              </button>
+            </div>
+           </div>
+          </div>
+          <!-- MAIN MENU CONTAINER -->
+          <div class="main-menu-container">
+
+            <div class="container-m-30 clearfix">
+
+              <!-- MAIN MENU -->
+              <div id="main-menu">
+                <div class="navbar navbar-default" role="navigation">
+
+                  <!-- MAIN MENU LIST -->
+                  <nav class="collapse collapsing navbar-collapse right-1024">
+                    <ul id="nav-onepage" class="nav navbar-nav">
+
+                      <!-- MENU ITEM -->
+                        <li class="parent current ">
+                          <a href="#home"><div class="main-menu-title">HOME</div></a>
+                        </li>
+
+                        <!-- MENU ITEM -->
+                        <li class="parent">
+                          <a href="/about"><div class="main-menu-title">SOBRE</div></a>
+                        </li>
+
+                        <!-- MEGA MENU ITEM -->
+                        <li class="parent megamenu">
+                          <a href="/product"><div class="main-menu-title">COMPRE</div></a>
+                        </li>
+
+                    </ul>
+
+                  </nav>
+
+                </div>
+              </div>
+              <!-- END main-menu -->
+
+            </div>
+            <!-- END container-m-30 -->
+
+          </div>
+          <!-- END main-menu-container -->
+
+          </div>
+          <!-- END header-wrapper -->
+
+        </header>
+
+        <!-- PAGE TITLE IMG -->
+        <div class="page-title-cont page-title-large grey-dark-bg page-title-img  blog-single-fullwidth-img" style="background-image: url({% static 'images/nomadas.jpg' %})">
+         <div class="relative container align-left">
+           <div class="row">
+
+             <div class="col-md-8">
+               <h1 class="page-title">MULTIFUNCIONAIS DO FUTURO</h1>
+               <div class="page-sub-title">
+                 COMO O MEXICANO GABRIEL ZARAGOZA COMBINA ARTE E TECNOLOGIA</a>
+               </div>
+             </div>
+
+           </div>
+         </div>
+       </div>
+
+     </div>
+
+     <!-- COTENT CONTAINER -->
+     <div class="container p-80-cont">
+       <div class="row">
+
+         <!-- CONTENT -->
+         <div class="col-md-12 blog-main-posts">
+
+           <!-- POST ITEM -->
+           <div class="blog-post wow fadeIn pb-50">
+
+             <div class="post-prev-text">
+               <p>Plantas Nómadas é um projeto de pesquisa que trata de refletir sobre os impactos ambientais e sociais gerados pela atividade humana: sistemas de produção, a concentração da riqueza, sustentando grandes centros urbanos, a exploração excessiva dos recursos naturais, resistência a uma transição energética e, em suma, a falta de consciência para encontrar formas de vida que se relacionam a empatia com a natureza. A tecnologia tem sido historicamente utilizada na sofisticação do mundo produtivo. No entanto, ele tem um enorme potencial para promover as grandes mudanças que o planeta necessita.</p>
+
+               <blockquote class="mb-40 mt-40">
+                 <p>Para funcionar, esta planta nómada toma agua contaminada, las bacterias de su celda de combustible se alimentan de los desechos transformando los nutrientes en electricidad, misma que se almacena y ayuda a la locomoción del robot, además en el proceso, también se alimenta a la plantita que produce electricidad a través de su metabolismo. Como producto final de este ciclo energético obtenemos agua más limpia y además oxígeno. </p>
+                 <footer>Gilberto Esparza<cite title="Source Title">Source Title</cite></footer>
+               </blockquote>
+
+               <p>Pellentesque venenatis tellus non purus tincidunt vitae ultrices tellus eleifend. Praesent quam augue, accumsan nec tempus dapibus, pharetra ac lacus. Nunc eleifend consequat justo id dapibus. In ut consequat massa. Nunc scelerisque suscipit leo nec imperdiet. Vestibulum pulvinar adipiscing turpis vitae ultrices. Suspendisse eu lectus dui, vitae lobortis lorem. Fusce gravida nibh et ante accusan molestie.</p>
+
+               <center class="mt-30 mb-30"><iframe width="640" height="360" src="https://www.youtube.com/embed/gkJUYciNDMA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></center>
+
+               <p>A planta Andarilho é uma espécie híbrida, formados por várias agências coexistir em simbiose de sobreviver em ambientes contaminados. A fonte de água vital para os recursos energéticos de sobrevivência é um dos mais afetados pela poluição. Nómada planta é um organismo vivo, compreendendo um sistema robotizado, uma espécie de planta orgânicos, um conjunto de células fotovoltaicas e de combustível microbiana. É a união de diferentes formas de inteligência que formam uma espécie mais fortes, entendido como um anticorpo, com o potencial para restaurar os danos ambientais em pequena escala. Para sobreviver, o corpo toma a água contaminada e processos nas suas células de combustível por uma colónia de bactérias indígenas nessas águas, que alimentam a transformação de nutrientes em electricidade para ser armazenado pelo sistema de recolha de energia. Este processo de biodegradação melhora a qualidade da água e proporciona as espécies de plantas que também produz electricidade com metavolismo. A liberação de oxigênio é o remanescente do ciclo de energia. Portanto, não é apenas uma espécie adaptada ao ambiente alterado, mas também restaura a energia terra disponível.</p>
+
+               <center class="mt-30 mb-30"><img src="http://www.plantasnomadas.com/imgs/imagen/foto/rio05.jpg" class="img-responsive" /></center>
+
+               <p><span class="bold">jf huerta:</span> ¿Por qué trabajas con tecnología para realizar tus obras?</p>
+
+               <p><span class="bold">Gilberto Esparza:</span> A mí siempre me ha interesado trabajar en el espacio urbano, inicié con el proyecto de parásitos urbanos porque era uno de mis primeros acercamientos con la tecnología. La mejor manera que encontré de hablar de la problemática ambiental es justamente buscando cuáles eran los efectos de la tecnología y el ambiente, entonces empecé a preguntarme acerca del consumo de tecnología y todo el residuo que genera este consumo, toda esta basura tecnológica de la ciudad. La basura tecnológica se convierte en mi materia prima con la que construyo el primer proyecto que es Parásitos Urbanos, es como si esta basura se reconfigurara y regresara a la ciudad para invadirla, como una consecuencia a un mal manejo que tenemos de los residuos, principalmente, haciendo intervenciones en el espacio público con estos robots viviendo en el entorno urbano.</p>
+
+               <center class="mt-30 mb-30"><img src="http://2.bp.blogspot.com/_cCLCspSbpPY/S0L72U0ssgI/AAAAAAAAAZA/QobBsnZOfZE/s640/planta-de-frente.jpg" class="img-responsive" /></center>
+
+               <p><span class="bold">jf huerta:</span> ¿Por qué trabajas con tecnología para realizar tus obras?</p>
+
+               <p><span class="bold">Gilberto Esparza:</span> A mí siempre me ha interesado trabajar en el espacio urbano, inicié con el proyecto de parásitos urbanos porque era uno de mis primeros acercamientos con la tecnología. La mejor manera que encontré de hablar de la problemática ambiental es justamente buscando cuáles eran los efectos de la tecnología y el ambiente, entonces empecé a preguntarme acerca del consumo de tecnología y todo el residuo que genera este consumo, toda esta basura tecnológica de la ciudad. La basura tecnológica se convierte en mi materia prima con la que construyo el primer proyecto que es Parásitos Urbanos, es como si esta basura se reconfigurara y regresara a la ciudad para invadirla, como una consecuencia a un mal manejo que tenemos de los residuos, principalmente, haciendo intervenciones en el espacio público con estos robots viviendo en el entorno urbano.</p>
+
+
+
+             </div>
+
+             <div class="post-prev-more-cont clearfix">
+               <div class="right" >
+                 <a href="#" class="post-prev-count dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >
+                   <span aria-hidden="true" class="social_share"></span>
+                 </a>
+                 <ul class="social-menu dropdown-menu dropdown-menu-right" role="menu">
+                   <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a>
+                   </li>
+                   <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                   <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                 </ul>
+               </div>
+             </div>
+           </div>
+
+           <!-- DIVIDER -->
+           <hr class="mt-0 mb-0">
+
+           <!-- RELATED POSTS -->
+           <h4 class="blog-page-title mt-50 mb-25">MAIS HISTÓRIAS</h4>
+
+           <div class="row related-posts">
+
+             <!-- Post Item 1 -->
+             <div class="col-sm-6 col-md-4 col-lg-4 wow fadeIn pb-50" >
+
+               <div class="post-prev-img">
+                 <a href="blog-single-sidebar-right.html"><img src="{% static 'images/news-aetrapp.jpg' %}" alt="img"></a>
+               </div>
+
+               <div class="post-prev-title">
+                 <h3><a href="blog-single-sidebar-right.html">TECNOLOGIA NO COMBATE À DENGUE</a></h3>
+               </div>
+
+               <div class="post-prev-info">
+                 JULHO, 10<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">Lucas Arthur</a>
+               </div>
+
+             </div>
+
+             <!-- Post Item 2 -->
+             <div class="col-sm-6 col-md-4 col-lg-4 wow fadeIn pb-50" data-wow-delay="200ms" >
+
+               <div class="post-prev-img">
+                 <a href="blog-single-sidebar-right.html"><img src="{% static 'images/news-andiroba.jpg' %}" alt="img"></a>
+               </div>
+
+               <div class="post-prev-title">
+                 <h3><a href="blog-single-sidebar-right.html">PROPRIEDADES DA ANDIROBA</a></h3>
+               </div>
+
+               <div class="post-prev-info">
+                 MAY 11<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a>
+               </div>
+
+
+             </div>
+
+             <!-- Post Item 3 -->
+             <div class="col-sm-6 col-md-4 col-lg-4 wow fadeIn pb-50" data-wow-delay="400ms" >
+
+               <div class="post-prev-img">
+                 <a href="blog-single-sidebar-right.html"><img src="{% static 'images/araquem.jpg' %}" alt="img"></a>
+               </div>
+
+               <div class="post-prev-title">
+                 <h3><a href="blog-single-sidebar-right.html">THE SOUND OF LIFE</a></h3>
+               </div>
+
+               <div class="post-prev-info">
+                 DECEMBER 21<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a>
+               </div>
+
+             </div>
+
+           </div>
+
+           <!-- DIVIDER -->
+           <hr class="mt-0 mb-0">
+
+         </div>
+                     </div>
+     </div>
+    <!-- NEWS LETTER -->
+    <div class="page-section nl-cont">
+      <div class="container">
+        <div class="relative" >
+          <div id="mc_embed_signup" class="nl-form-container clearfix">
+            <form action="http://abcgomel.us9.list-manage.com/subscribe/post-json?u=ba37086d08bdc9f56f3592af0&amp;id=e38247f7cc&amp;c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletterform validate" target="_blank" novalidate>   <!-- EDIT THIS ACTION URL (add "post-json?u" instead of "post?u" and appended "&amp;c=?" to the end of this URL) -->
+              <input type="email" value="" name="EMAIL" class="email nl-email-input" id="mce-EMAIL" placeholder="Receba nossa newsletter!" required>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;"><input type="text" name="b_ba37086d08bdc9f56f3592af0_e38247f7cc" tabindex="-1" value=""></div>
+
+              <input type="submit" value="ASSINE" name="subscribe" id="mc-embedded-subscribe" class="button medium thin tp-button dark-green">
+            </form>
+            <div id="notification_container"  ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER 2 BLACK -->
+    <footer class="page-section pt-80 pb-50 footer2-black">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-3 col-sm-3 widget">
+            <div class="logo-footer-cont">
+              <a href="index.html">
+                <img src="{% static 'images/logo-white.svg' %}" class="logo-img" alt="Logo">
+              </a>
+            </div>
+            <div class="footer-2-text-cont">
+              <address>
+                ROD. BR 316 KM 08 S/Nº<br>
+                67030-000 | ANANINDEUA PA
+              </address>
+            </div>
+            <div class="footer-2-text-cont">
+              +55 91 3215-5200
+            </div>
+            <div class="footer-2-text-cont">
+              <a class="a-text" href="mailto:contato@natebeauty.com.br">contato@natebeauty.com.br</a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-3 widget">
+            <h4>INSTITUCIONAL</h4>
+            <ul class="links-list a-text-cont" >
+              <li><a href="nt_buy.html">ONDE COMPRAR</a></li>
+              <li><a href="nt_retail.html"></a>FALE CONOSCO</li>
+              <li><a href="nt_datasheet.html">INFORMAÇÕES LEGAIS</a></li>
+              <li><a href="nt_termofuse.html">POLÍTICA DE PRIVACIDADE</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 col-sm-3 widget">
+            <h4>NAVEGUE</h4>
+            <ul class="links-list bold a-text-cont">
+              <li><a href="#">INÍCIO</a></li>
+              <li><a href="nt_about.html">SOBRE</a></li>
+              <li><a href="nt_histories.html">PRODUTOS</a></li>
+              <li><a href="nt_blog.html">SABEDORIAS</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-3 widget">
+            <div class="footer-2-copy-cont clearfix">
+              <!-- Social Links -->
+              <div class="footer-2-soc-a right">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="#" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="#" title="E-mail" target="_blank"><i class="fa fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <!-- Copyright -->
+        <div class="left">
+          <p class="footer-2-copy" >&copy; NATÉ! do Brasil Indústria e Comércio de Produtos para Saúde Ltda. 2017. Todos os direitos reservados. </p><p>Este site é de propriedade da NATÉ! do Brasil Indústria e Comércio de Produtos para Saúde Ltda., única responsável por seu conteúdo, e destina-se a residentes no Brasil.</p>
+        </div>
+
+
+      </div>
+
+    </div>
+  </footer>
+
+				<!-- BACK TO TOP -->
+				<p id="back-top">
+          <a href="#top" title="Back to Top"><span class="icon icon-arrows-up"></span></a>
+        </p>
+
+			</div><!-- End BG -->
+		</div><!-- End wrap -->
+
+<!-- JS begin -->
+
+		<!-- jQuery  -->
+		<script type="text/javascript" src="{% static 'js/jquery-1.11.2.min.js' %}"></script>
+
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+		<!-- MAGNIFIC POPUP -->
+		<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+
+    <!-- PORTFOLIO SCRIPTS -->
+    <script type="text/javascript" src="{% static 'js/isotope.pkgd.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/imagesloaded.pkgd.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/masonry.pkgd.min.js' %}"></script>
+
+    <!-- COUNTER -->
+    <script type="text/javascript" src="{% static 'js/jquery.countTo.js' %}"></script>
+
+    <!-- APPEAR -->
+    <script type="text/javascript" src="{% static 'js/jquery.appear.js' %}"></script>
+
+    <!-- OWL CAROUSEL -->
+    <script type="text/javascript" src="{% static 'js/owl.carousel.min.js' %}"></script>
+
+    <!-- PARALLAX -->
+    <script type="text/javascript" src="{% static 'js/jquery.stellar.min.js' %}"></script>
+
+    <!-- ONE PAGE NAV -->
+    <script src="{% static 'js/jquery.nav.js' %}"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+      //ONE PAGE NAV	---------------------------------------------------------------------------
+      var top_offset = $('header').height() - 1;  // get height of fixed navbar
+
+      $('#nav-onepage').onePageNav({
+        currentClass: 'current',
+        changeHash: false,
+        scrollSpeed: 700,
+        scrollOffset: top_offset,
+        scrollThreshold: 0.5,
+        filter: '',
+        easing: 'swing',
+        begin: function() {
+          //I get fired when the animation is starting
+        },
+        end: function() {
+          //I get fired when the animation is ending
+        },
+        scrollChange: function($currentListItem) {
+          //I get fired when you enter a section and I pass the list item of the section
+        }
+      });
+
+      });//END document.ready
+    </script>
+
+    <!-- FORMS VALIDATION	-->
+		<script src="{% static 'js/jquery.validate.min.js' %}"></script>
+		<script src="{% static 'js/contact-form-validation.min.js' %}"></script>
+
+    <!-- MAIN SCRIPT -->
+    <script src="{% static 'js/main.js' %}"></script>
+
+    <!-- BACKGROUND VIDEO -->
+    <script type="text/javascript" src="{% static 'js/jquery.backgroundvideo.min.js' %}"></script>
+    <script>
+    $(document).ready(function(){
+      if (!($("html").hasClass("mobile"))){
+        var videobackground = new $.backgroundVideo($('.sm-video'), {
+          "align": "centerXY",
+          "width": 1920,
+          "height": 1080,
+          "path": "../static/video/",
+          "filename": "bonsai_slow",
+          "types": ["mp4", "webm"],
+          "autoplay": true,
+          "loop": true
+        });
+      }
+    });
+    </script>
+
+
+<!-- JS end -->
+
+	</body>
+</html>
