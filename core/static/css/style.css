@@ -2135,7 +2135,6 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   border-bottom: 1px solid #eee;
 }
 .client-row img {
-  height: 100px;
 }
 .client1-item {
   text-align:center;
@@ -5716,7 +5715,7 @@ button {
   color:#00524c;
 }
 .button.thin.dark-green:hover {
-  background-color:#C4D600;
+  background-color:#00524c;
   color:#fff;
 }
 .button.thin.gray-light {
