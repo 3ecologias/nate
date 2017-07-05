@@ -9,6 +9,7 @@ urlpatterns = [
     url(r'^$', views.Index.as_view(), name="index"),
     url(r'^about/$', views.AboutView.as_view(), name='about'),
     url(r'^product/$', views.ProductView.as_view(), name='about'),
+    url(r'^blogdetail/$', views.BlogDetailView.as_view(), name='blogdetail'),
 ]
 
 urlpatterns += staticfiles_urlpatterns()

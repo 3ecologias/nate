@@ -23,3 +23,9 @@ class ProductView(generic.TemplateView):
         def get_context_data(self, **kwargs):
             context = super(ProductView, self).get_context_data(**kwargs)
             return context
+
+class BlogDetailView(generic.TemplateView):
+	template_name = 'core/blogdetail.html'
+        def get_context_data(self, **kwargs):
+            context = super(BlogDetailView, self).get_context_data(**kwargs)
+            return context
